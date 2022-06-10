@@ -1,0 +1,29 @@
+{
+  "name": "scale",
+  "version": "1.0.0",
+  "description": "technical test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js -l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anayazmincamacho/Scale.git"
+  },
+  "author": "Ana Yazmin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anayazmincamacho/Scale/issues"
+  },
+  "homepage": "https://github.com/anayazmincamacho/Scale#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
